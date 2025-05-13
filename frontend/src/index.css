@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@keyframes slide-in-left {
+  from { opacity: 0; transform: translateX(-60px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+@keyframes slide-in-right {
+  from { opacity: 0; transform: translateX(60px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+.animate-slide-in-left {
+  animation: slide-in-left 1s ease-out;
+}
+.animate-slide-in-right {
+  animation: slide-in-right 1s ease-out;
+}
+
+@keyframes orbit {
+  0% {
+    transform: rotate(0deg) translateY(-128px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateY(-128px) rotate(-360deg);
+  }
+}
+.animate-orbit {
+  animation: orbit 2s linear infinite;
+  transform-origin: 50% 128px;
+}
