@@ -1,5 +1,8 @@
 import React from "react";
 import { AnimatedProgressBar } from "../App";
+import T3 from "../images/T3.jpg";
+import T4 from "../images/T4.jpg";
+import T5 from "../images/T5.jpg";
 
 const progressItems = [
   { label: 'IT Solution & Management', value: 90 },
@@ -12,11 +15,11 @@ const ITSolutionsSection = () => (
     {/* Left: Image Grid */}
     <div className="flex-1 flex flex-col md:flex-row gap-6 items-center justify-center">
       <div className="flex flex-col gap-6">
-        <img src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&w=600&q=80" alt="Main" className="rounded-3xl w-80 h-80 object-cover" />
+        <img src={T3} alt="Main" className="rounded-3xl w-80 h-80 object-cover" />
       </div>
       <div className="flex flex-col gap-6 ml-0 md:ml-6">
-        <img src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&w=400&q=80" alt="Small1" className="rounded-2xl w-56 h-36 object-cover" />
-        <img src="https://images.pexels.com/photos/3182763/pexels-photo-3182763.jpeg?auto=compress&w=400&q=80" alt="Small2" className="rounded-2xl w-56 h-36 object-cover" />
+        <img src={T4} alt="Small1" className="rounded-2xl w-56 h-36 object-cover" />
+        <img src={T5} alt="Small2" className="rounded-2xl w-56 h-36 object-cover" />
       </div>
     </div>
     {/* Right: Content */}

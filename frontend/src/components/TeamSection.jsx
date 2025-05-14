@@ -1,54 +1,48 @@
 import React, { useState } from "react";
+import nasser from "../images/nasser.jpg";
+import hakimi from "../images/hakimi.jpg";
+import soke from "../images/soke.jpg";
+import bakar from "../images/bakar.jpg";
+import armaan from "../images/armaan.jpg";
 
 const teamMembers = [
   {
-    name: 'Jenny Wilson',
-    role: 'Python Developer',
-    img: 'https://randomuser.me/api/portraits/women/44.jpg',
+    name: 'Abdinasir Isse',
+    role: 'Full Stack Developer',
+    img: nasser,
     active: false,
   },
   {
-    name: 'Jacob Jones',
-    role: 'PHP Developer',
-    img: 'https://randomuser.me/api/portraits/men/41.jpg',
+    name: 'Abdihakim Bashiir',
+    role: 'Full Stack Developer',
+    img: hakimi,
     active: false,
   },
   {
-    name: 'Jane Cooper',
-    role: 'Django Developer',
-    img: 'https://randomuser.me/api/portraits/women/47.jpg',
+    name: 'Abdiaziz',
+    role: 'Full Stack Developer',
+    img: soke,
     active: true,
   },
   {
-    name: 'Guy Hawkins',
-    role: 'JavaScrip Developer',
-    img: 'https://randomuser.me/api/portraits/men/43.jpg',
+    name: 'Bakar',
+    role: 'Full Stack Developer',
+    img: bakar,
     active: false,
   },
   {
-    name: 'Jane Cooper',
+    name: 'Armaan',
+    role: 'Full Stack Developer',
+    img: armaan,
+    active: false,
+  },
+  {
+    name: 'Nurdin Osman',
     role: 'Django Developer',
     img: 'https://randomuser.me/api/portraits/women/47.jpg',
     active: false,
   },
-  {
-    name: 'Jane Cooper',
-    role: 'Django Developer',
-    img: 'https://randomuser.me/api/portraits/women/47.jpg',
-    active: false,
-  },
-  {
-    name: 'Jane Cooper',
-    role: 'Django Developer',
-    img: 'https://randomuser.me/api/portraits/women/47.jpg',
-    active: false,
-  },
-  {
-    name: 'Guy Hawkins',
-    role: 'JavaScrip Developer',
-    img: 'https://randomuser.me/api/portraits/men/44.jpg',
-    active: false,
-  },
+ 
 ];
 
 const membersPerPage = 4;

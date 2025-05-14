@@ -1,4 +1,6 @@
 import React from "react";
+import T9 from "../images/T9.jpg";
+import T7 from "../images/T7.jpg";
 
 const FooterSection = () => (
   <footer className="bg-[#101828] text-white pt-20 pb-10">
@@ -76,12 +78,12 @@ const FooterSection = () => (
           <div className="font-bold text-lg mb-4">Instagram Post</div>
           <div className="grid grid-cols-3 gap-2">
             {[
-              'https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&w=100&q=80',
-              'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&w=100&q=80',
-              'https://images.pexels.com/photos/3182763/pexels-photo-3182763.jpeg?auto=compress&w=100&q=80',
-              'https://images.pexels.com/photos/1707828/pexels-photo-1707828.jpeg?auto=compress&w=100&q=80',
-              'https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&w=100&q=80',
-              'https://images.pexels.com/photos/3184300/pexels-photo-3184300.jpeg?auto=compress&w=100&q=80',
+              T7,
+              T9,
+              T7,
+              T9,
+              T7,
+              T9,
             ].map((img, i) => (
               <img key={i} src={img} alt={`Insta${i+1}`} className="rounded-lg w-20 h-20 object-cover" />
             ))}

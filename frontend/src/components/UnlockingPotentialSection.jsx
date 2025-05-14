@@ -1,4 +1,6 @@
 import React from "react";
+import T1 from "../images/T1.jpg";
+import T9 from "../images/T9.jpg";
 
 const UnlockingPotentialSection = () => (
   <section className="max-w-9xl mx-auto px-4 py-20 flex flex-col lg:flex-row items-start gap-16">
@@ -6,14 +8,14 @@ const UnlockingPotentialSection = () => (
     <div className="relative flex-1 flex justify-center items-center min-w-[350px] pr-12 animate-slide-in-left">
       <div className="relative z-10 overflow-hidden shadow-xl w-80 h-80 rounded-tl-[48px] rounded-tr-3xl rounded-bl-3xl rounded-br-3xl">
         <img
-          src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&w=600&q=80"
+          src={T1}
           alt="Team 1"
           className="w-full h-full object-cover"
         />
       </div>
       <div className="absolute left-56 top-48 z-20 overflow-hidden shadow-xl w-72 h-72 border-4 border-white rounded-3xl">
         <img
-          src="https://images.pexels.com/photos/1707828/pexels-photo-1707828.jpeg?auto=compress&w=600&q=80"
+          src={T9}
           alt="Team 2"
           className="w-full h-full object-cover rounded-3xl"
         />
