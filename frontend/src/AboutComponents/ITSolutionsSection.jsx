@@ -1,5 +1,5 @@
 import React from "react";
-import { AnimatedProgressBar } from "../App";
+import { AnimatedProgressBar } from "../About";
 import T3 from "../images/T3.jpg";
 import T4 from "../images/T4.jpg";
 import T5 from "../images/T5.jpg";

@@ -1,5 +1,5 @@
 import React from "react";
-import { useCountUp } from "../App";
+import { useCountUp } from "../About";
 
 const stats = [
   { value: 12, label: 'Years Experience' },
